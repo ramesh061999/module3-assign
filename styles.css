@@ -1,0 +1,134 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  
+  .navbar-brand {
+    padding-top: 50px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 05;
+    line-height: .75;
+    margin-left: 05;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
+  
+  #nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  /* END HEADER */
+  
+  /* HOME PAGE */
+  .color {
+    background-color: #A52A2A;
+    border: 2px solid black;
+    margin: 20px;
+    position: relative;
+    max-width: 100%;
+  }
+  
+  #title {
+    text-align: center;
+    margin: 30px 0 40px 0;
+  }
+  h3{
+    text-align: center;
+    margin: 30px 0 40px 0;
+
+  }
+  p {
+    background-color: #A52A2A;
+    width: 95%;
+    height: 125px;
+    margin-top: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: white;
+  }
+  
+ 
+  /* END HOME PAGE */
+  
+  /********** Large devices only **********/
+  @media (min-width: 1200px) {
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 25px;
+        
+      }
+  
+  /********** Small devices only **********/
+
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 80px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 10px;
+      font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+    .navbar-brand p { /* Kosher cert */
+      font-size: .6em;
+      margin-top: 12px;
+    }
+    .navbar-brand p img { /* Star-K */
+      height: 20px;
+    }
+  
+   
+  
+   
+    /* End Header */
+  
+    /* Home Page */
+    
+  
+    
+  }
+  
+  
+  
